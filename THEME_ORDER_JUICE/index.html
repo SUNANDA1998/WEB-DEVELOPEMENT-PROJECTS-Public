@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Juice Order</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center my-5">Order Your Healthy Juice</h1>
+
+    <div class="row" id="juice-list">
+      <!-- Juice items will be loaded here dynamically using JavaScript -->
+    </div>
+
+    <div class="text-center">
+      <form id="order-form">
+        <h3>Place Your Order</h3>
+        <div class="form-group">
+          <label for="juice">Select Juice</label>
+          <select class="form-control" id="juice">
+            <!-- Options will be loaded dynamically -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Quantity</label>
+          <input type="number" class="form-control" id="quantity" value="1" min="1" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Order</button>
+      </form>
+
+      <div id="order-summary" class="mt-4" style="display:none;">
+        <h4>Order Summary:</h4>
+        <p id="summary"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Orange Juice",
+      "image": "https://cdn.pixabay.com/photo/2017/01/20/14/59/orange-1995044_960_720.jpg.jpg",
+      "description": "Freshly squeezed orange juice packed with Vitamin C."
+    },
+    {
+      "id": 2,
+      "name": "Green Juice",
+      "image": "https://cdn.pixabay.com/photo/2024/06/10/15/14/ai-generated-8820898_960_720.png",
+      "description": "A healthy mix of kale, spinach, and apple for a refreshing taste."
+    },
+    {
+      "id": 3,
+      "name": "Carrot Juice",
+      "image": "https://cdn.pixabay.com/photo/2016/08/26/20/40/carrot-juice-1623079_1280.jpg",
+      "description": "Sweet and smooth carrot juice, great for vision and skin."
+    }
+  ]
+  
